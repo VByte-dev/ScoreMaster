@@ -1,12 +1,11 @@
-:root{
-  --green: rgb(0, 155, 83);
-}
-*{
+/* Boilerplate */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html, body{
+html,
+body {
   height: 100%;
   width: 100%;
 }
