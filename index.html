@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScoreMaster</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="flex justify-center items-center m-10 bg-black text-white rounded p-6">
+    <h1 class="text-3xl font-medium font-mono">ScoreMaster</h1>
+  </header>
+  <!-- Hero -->
+  <section class="bg-black p-10 m-10 rounded">
+    <div><input type="text" placeholder="Enter the name" id="name"
+        class="bg-white p-2 rounded mt-4 border-none outline-none font-mono" /></div>
+    <div><input type="number" placeholder="Enter the score" id="score"
+        class="bg-white p-2 rounded mt-4 border-none outline-none font-mono "></div>
+    <button class="bg-white text-black font-mono p-2 rounded px-10 mt-4 active:bg-green-800 active:text-white"
+      id="addB">Add</button>
+    <button
+      class="bg-white text-blaCK font-mono p-2 rounded px-10 mt-4 active:bg-green-800 active:text-white" id="genB">Generate</button>
+      <button
+      class="bg-red-500 text-black font-mono p-2 rounded px-10 mt-4 active:bg-red-800 active:text-black" id="clearB">Clear</button>
+  </section>
+  <!-- LeaderBord-->
+  <h1 class="text-center font-medium text-xl text-white w-6/6 bg-black mx-10 rounded p-4">LeaderBord</h1>
+  <div id="lb" class="bg-black text-white w-6/6 mx-10 my-4 rounded p-4 font-mono ">
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
