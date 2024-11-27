@@ -1,6 +1,6 @@
 # ScoreMaster ~ Leaderboard
 
-A simple web application to manage player scores. Enter names, record scores, and watch the leaderboard automatically sort in descending order. Built as a practice project.
+A simple web application to manage player scores. Enter names, record scores, and generate the leaderboard automatically sort in descending order. Built as a practice project.
 
 ---
 
