@@ -17,7 +17,7 @@ document.querySelector("#addB").addEventListener("click", () => {
 // Generate Function
 document.querySelector("#genB").addEventListener("click", () => {
   try {
-    doument.querySelector("#lb").innerHTML = "";
+    document.querySelector("#lb").innerHTML = "";
     players.sort((a, b) => b.score - a.score);
     players.forEach((player) => {
       let html = `
